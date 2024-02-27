@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StreamSia</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d21c3140b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#141414] text-white">
+    <div
+      class="w-full h-[31.25rem] lg:h-[43.688rem] relative"
+      style="
+        background: url(./images/movies_bgc.png) center center/cover no-repeat;
+      "
+    >
+      <div class="absolute bg-opacity-80 bg-black inset-0">
+        <div class="absolute bg-black bg-opacity-20 lg:bg-opacity-20 inset-0">
+          <!-- NAVBAR HERE... -->
+          <nav
+            class="px-9 py-10 text-[14px] flex justify-between items-center lg:py-8 lg:px-20"
+          >
+            <div class="flex items-center gap-1">
+              <img
+              src="./images/logo_movie.png"
+              class="h-[2.188rem] lg:h-[3.125rem]"
+            />
+            <h1 class="font-bold italic">StreamSia</h1>
+            </div>
+            <ul
+              class="lg:flex lg:justify-between lg:px-2 bg-black border-[#141414] border-2 rounded-xl lg:w-[26.75rem] lg:h-[3.813rem] lg:items-center"
+            >
+              <li
+                class="hover:bg-[#141414] duration-300 lg:px-2 lg:py-[0.8rem] lg:flex lg:justify-center lg:items-center rounded-lg"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="hover:bg-[#141414] duration-300 lg:px-2 lg:py-[0.8rem] lg:flex lg:justify-center lg:items-center rounded-lg"
+              >
+                <a href="#">Movies & Shows</a>
+              </li>
+              <li
+                class="hover:bg-[#141414] duration-300 lg:px-2 lg:py-[0.8rem] lg:flex lg:justify-center lg:items-center rounded-lg"
+              >
+                <a href="#">Support</a>
+              </li>
+              <li
+                class="hover:bg-[#141414] duration-300 lg:px-2 lg:py-[0.8rem] lg:flex lg:justify-center lg:items-center rounded-lg"
+              >
+                <a href="#">Subscriptions</a>
+              </li>
+            </ul>
+
+            <div>
+              <i
+                class="fa-solid fa-magnifying-glass text-[1.5rem] cursor-pointer lg:mr-3"
+              ></i>
+              <i class="fa-regular fa-bell text-[1.5rem] cursor-pointer"></i>
+            </div>
+          </nav>
+
+          <!-- MIDDLE BACKGROUND HERE... -->
+          <img
+            src="./images/Abstract Design.png"
+            class="h-[12.5rem] mx-auto mt-[4rem] lg:h-[18.75rem]"
+          />
+
+          <!-- TEXT STARTS HERE... -->
+          <div class="lg:mt-[7rem]">
+            <h1 class="lg:text-[3rem] font-bold lg:text-center">
+              Enjoy The Best Streaming Experience
+            </h1>
+            <p class="lg:w-[79.7rem] text-[#999999] text-center mx-auto">
+              StreamSia is the best streaming experience for watching your
+              favorite movies and shows on demand, anytime, anywhere. With
+              StreamSia, you can enjoy a wide variety of content, including the
+              latest blockbusters, classic movies, popular TV shows, and more.
+              You can also create your own watchlists, so you can easily find
+              the content you want to watch.
+            </p>
+            <button type="button" class="flex gap-2 justify-center items-center bg-[#E50000] lg:px-4 lg:py-4 lg:text-[14px] rounded-lg lg:mx-auto lg:mt-16">
+              <i class="fa-solid fa-play"></i>
+              Start Watching Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
